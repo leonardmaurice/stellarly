@@ -4,7 +4,7 @@ function renderNewPostForm(request, response) {
         response.writeHead(200, {
                 'Content-type': 'text/plain'
         });
-        response.end('Hello World Testing in Mini');
+        response.end('Hello World Testing on Air');
 }
 
 var server = http.createServer(function(request, response) {
